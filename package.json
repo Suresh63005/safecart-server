@@ -1,0 +1,19 @@
+{
+  "name": "safecartserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server",
+  "scripts": {
+    "start": "node server",
+    "server":"nodemon server"
+  },
+  "author": "suresh pyla",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-formidable": "^1.2.0",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0"
+  }
+}
